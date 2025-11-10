@@ -11,13 +11,13 @@ export default function TelaCatalogo() {
         <ScrollView>
         <View style={styles.container}>
             <Text style={styles.title}>Nossos Vinhos</Text>
-            <Text style={styles.subtitle}>Trabalhamos com o melhor dos seguintes vinhos: Vinho Branco, Vinho Rosé, Vinho Tinto e Vinho Seco</Text>
+            <Text style={styles.subtitle}>Trabalhamos com os melhores : Vinho Branco, Vinho Rosé, Vinho Tinto e Vinho Seco</Text>
             
             <View style={styles.item}>
                 <Image source={Vinho1} style={styles.img}></Image>
                 <View style={styles.itemvw}>
                     <Text style={styles.itemtitle}>Vinho Branco</Text>
-                    <Text style={styles.itemsubtitle}>Descrição do Vinho Branco</Text>
+                    <Text style={styles.itemsubtitle}>Sofisticado</Text>
                 </View>
             </View>
             
@@ -25,7 +25,7 @@ export default function TelaCatalogo() {
                 <Image source={Vinho2} style={styles.img}></Image>
                 <View style={styles.itemvw}>
                     <Text style={styles.itemtitle}>Vinho Rosé</Text>
-                    <Text style={styles.itemsubtitle}>Descrição do Vinho Rosé</Text>
+                    <Text style={styles.itemsubtitle}>Renomado</Text>
                 </View>
             </View>
 
@@ -33,7 +33,7 @@ export default function TelaCatalogo() {
                 <Image source={Vinho3} style={styles.img}></Image>
                 <View style={styles.itemvw}>
                     <Text style={styles.itemtitle}>Vinho Tinto</Text>
-                    <Text style={styles.itemsubtitle}>Descrição do Vinho Tinto</Text>
+                    <Text style={styles.itemsubtitle}>Famoso</Text>
                 </View>
             </View>
             
@@ -41,7 +41,7 @@ export default function TelaCatalogo() {
                 <Image source={Vinho4} style={styles.img}></Image>
                 <View style={styles.itemvw}>
                     <Text style={styles.itemtitle}>Vinho Seco</Text>
-                    <Text style={styles.itemsubtitle}>Descrição do Vinho Seco</Text>
+                    <Text style={styles.itemsubtitle}>Imcontestável</Text>
                 </View>
             </View>
 

@@ -10,22 +10,22 @@ export default function TelaContato() {
             <View style={styles.item}>
                 <FontAwesome name="phone" size={50} color='#400303' />
                 <Text style={styles.itemtitle}>Telefone:</Text>
-                <Text style={styles.itemsubtitle}>+55 21 00000-0000</Text>
+                <Text style={styles.itemsubtitle}>+55 15 00000-0000</Text>
             </View>
             <View style={styles.item}>
                 <FontAwesome6 name="location-dot" size={50} color='#400303' />
                 <Text style={styles.itemtitle}>Endereço:</Text>
-                <Text style={styles.itemsubtitle}>Av. 123, 777 - Rio de Janeiro RJ</Text>
+                <Text style={styles.itemsubtitle}>Av. 452, 898 - São Paulo SP</Text>
             </View>
             <View style={styles.item}>
                 <FontAwesome name="envelope" size={50} color='#400303' />
                 <Text style={styles.itemtitle}>Email:</Text>
-                <Text style={styles.itemsubtitle}>preferida@adega.com.br</Text>
+                <Text style={styles.itemsubtitle}>melhorqtem@adega.com.br</Text>
             </View>
             <View style={styles.item}>
                 <Entypo name="instagram" size={50} color='#400303' />
                 <Text style={styles.itemtitle}>Instagram:</Text>
-                <Text style={styles.itemsubtitle}>@adegapreferida</Text>
+                <Text style={styles.itemsubtitle}>@adegamelhorqtem</Text>
             </View>
         </View>
         </ScrollView>

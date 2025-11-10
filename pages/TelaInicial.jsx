@@ -7,7 +7,7 @@ export default function TelaInicial() {
     return (
         <ImageBackground source={imgBackground} style={styles.container}>
             <Text style={styles.title}>Adega Preferida</Text>
-            <Text style={styles.subtitle}>Aqui você encontra os melhores e mais saborosos vinhos</Text>
+            <Text style={styles.subtitle}>Aqui você encontra os melhoresvinhos</Text>
         </ImageBackground>
     );
 }
